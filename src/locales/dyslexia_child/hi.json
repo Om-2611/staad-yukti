@@ -1,0 +1,910 @@
+{
+  "age-4-6": {
+    "expectedTimePerQuestion": 12.5,
+    "thresholdIncorrect": 6,
+    "thresholdSlowResponses": 4,
+    "questions": [
+      {
+        "id": "AGE4-6-1",
+        "text": "कौन-सा रंग लाल है?",
+        "correctAnswer": "🟥",
+        "options": [
+          { "text": "🟥", "score": 1 },
+          { "text": "🟦", "score": 0 },
+          { "text": "🟨", "score": 0 },
+          { "text": "🟩", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-2",
+        "text": "कौन-सा गोल है?",
+        "correctAnswer": "⚪",
+        "options": [
+          { "text": "⚪", "score": 1 },
+          { "text": "⬛", "score": 0 },
+          { "text": "🔺", "score": 0 },
+          { "text": "⬜", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-3",
+        "text": "कौन-सी चीज़ बड़ी है?",
+        "correctAnswer": "🍉",
+        "options": [
+          { "text": "🍎", "score": 0 },
+          { "text": "🍉", "score": 1 },
+          { "text": "🍒", "score": 0 },
+          { "text": "🍓", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-4",
+        "text": "कौन-सी चीज़ ऊपर है?",
+        "correctAnswer": "🌞",
+        "options": [
+          { "text": "🌳", "score": 0 },
+          { "text": "🌞", "score": 1 },
+          { "text": "🚗", "score": 0 },
+          { "text": "🏠", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-5",
+        "text": "नीचे दिए में से १ कौन-सा है?",
+        "correctAnswer": "१",
+        "options": [
+          { "text": "१", "score": 1 },
+          { "text": "२", "score": 0 },
+          { "text": "३", "score": 0 },
+          { "text": "४", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-6",
+        "text": "नीचे दिए में से ३ कौन-सा है?",
+        "correctAnswer": "३",
+        "options": [
+          { "text": "५", "score": 0 },
+          { "text": "३", "score": 1 },
+          { "text": "२", "score": 0 },
+          { "text": "६", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-7",
+        "text": "कौन-से दो चित्र एक जैसे हैं?",
+        "correctAnswer": "🍎🍎🍌",
+        "options": [
+          { "text": "🍎🍌🍎", "score": 0 },
+          { "text": "🍎🍎🍌", "score": 1 },
+          { "text": "🍌🍎🍎", "score": 0 },
+          { "text": "🍎🍌🍌", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-8",
+        "text": "कौन-सा चित्र सबसे छोटा है?",
+        "correctAnswer": "⚫",
+        "options": [
+          { "text": "⚫⚫⚫⚫", "score": 0 },
+          { "text": "⚫⚫⚫", "score": 0 },
+          { "text": "⚫⚫", "score": 0 },
+          { "text": "⚫", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-9",
+        "text": "कौन-सी चीज़ स्कूल में नहीं मिलती?",
+        "correctAnswer": "पेड़",
+        "options": [
+          { "text": "बस्ता", "score": 0 },
+          { "text": "किताब", "score": 0 },
+          { "text": "पेड़", "score": 1 },
+          { "text": "पेंसिल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-10",
+        "text": "कौन-सी आकृति अलग है?",
+        "correctAnswer": "🔺⚫⚫⚫",
+        "options": [
+          { "text": "🔺⚫⚫⚫", "score": 1 },
+          { "text": "⚫⚫⚫⚫", "score": 0 },
+          { "text": "⚫⚫⚫🔺", "score": 1 },
+          { "text": "⚫🔺⚫⚫", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-11",
+        "text": "कौन-सा जानवर उड़ता है?",
+        "correctAnswer": "🐦",
+        "options": [
+          { "text": "🐦", "score": 1 },
+          { "text": "🐘", "score": 0 },
+          { "text": "🐄", "score": 0 },
+          { "text": "🐍", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-12",
+        "text": "कौन-सी संख्या बड़ी है?",
+        "correctAnswer": "५",
+        "options": [
+          { "text": "२", "score": 0 },
+          { "text": "३", "score": 0 },
+          { "text": "५", "score": 1 },
+          { "text": "१", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-13",
+        "text": "कौन-सी वस्तु गोल है?",
+        "correctAnswer": "गेंद",
+        "options": [
+          { "text": "गेंद", "score": 1 },
+          { "text": "किताब", "score": 0 },
+          { "text": "डब्बा", "score": 0 },
+          { "text": "रूलर", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-14",
+        "text": "कौन-सा चित्र दो बार है?",
+        "correctAnswer": "🌸🌼🌸",
+        "options": [
+          { "text": "🌸🌼🌸", "score": 1 },
+          { "text": "🌼🌸🌸", "score": 1 },
+          { "text": "🌸🌸🌸", "score": 0 },
+          { "text": "🌼🌼🌸", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-15",
+        "text": "कौन-सा चित्र ऊपर रखा है?",
+        "correctAnswer": "🍎 (ऊपर)",
+        "options": [
+          { "text": "🍎 (ऊपर)", "score": 1 },
+          { "text": "🍌 (बीच में)", "score": 0 },
+          { "text": "🍓 (नीचे)", "score": 0 },
+          { "text": "🍇 (नीचे)", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-16",
+        "text": "कौन-सा नंबर लिखा है — \"५\"?",
+        "correctAnswer": "५",
+        "options": [
+          { "text": "३", "score": 0 },
+          { "text": "४", "score": 0 },
+          { "text": "५", "score": 1 },
+          { "text": "६", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-17",
+        "text": "कौन-सा चित्र बड़ा पेड़ दिखाता है?",
+        "correctAnswer": "🌳",
+        "options": [
+          { "text": "🌱", "score": 0 },
+          { "text": "🌳", "score": 1 },
+          { "text": "🍀", "score": 0 },
+          { "text": "🍂", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-18",
+        "text": "कौन-सा अक्षर क है?",
+        "correctAnswer": "क",
+        "options": [
+          { "text": "क", "score": 1 },
+          { "text": "ख", "score": 0 },
+          { "text": "ग", "score": 0 },
+          { "text": "घ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-19",
+        "text": "कौन-सी वस्तु गोल नहीं है?",
+        "correctAnswer": "किताब",
+        "options": [
+          { "text": "गेंद", "score": 0 },
+          { "text": "प्लेट", "score": 0 },
+          { "text": "किताब", "score": 1 },
+          { "text": "सूरज", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-20",
+        "text": "कौन-सी संख्या सबसे छोटी है?",
+        "correctAnswer": "१",
+        "options": [
+          { "text": "३", "score": 0 },
+          { "text": "१", "score": 1 },
+          { "text": "२", "score": 0 },
+          { "text": "४", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-7-10": {
+    "expectedTimePerQuestion": 15,
+    "thresholdIncorrect": 7,
+    "thresholdSlowResponses": 5,
+    "questions": [
+      {
+        "id": "AGE7-10-1",
+        "text": "\"फल, फळ, फल्, फल\" — सही शब्द कौन-सा है?",
+        "correctAnswer": "फल",
+        "options": [
+          { "text": "फल", "score": 1 },
+          { "text": "फळ", "score": 0 },
+          { "text": "फल्", "score": 0 },
+          { "text": "फल", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-2",
+        "text": "\"कलम, क्लम, कल्म, क्मल\" — सही वर्तनी कौन-सी है?",
+        "correctAnswer": "कलम",
+        "options": [
+          { "text": "कलम", "score": 1 },
+          { "text": "क्लम", "score": 0 },
+          { "text": "कल्म", "score": 0 },
+          { "text": "क्मल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-3",
+        "text": "\"सागर, सगर, सगार, सगड़\" — सही शब्द कौन-सा है?",
+        "correctAnswer": "सागर",
+        "options": [
+          { "text": "सागर", "score": 1 },
+          { "text": "सगर", "score": 0 },
+          { "text": "सगार", "score": 0 },
+          { "text": "सगड़", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-4",
+        "text": "\"घर, गर, गढ़, गडर\" — सही शब्द कौन-सा है?",
+        "correctAnswer": "घर",
+        "options": [
+          { "text": "घर", "score": 1 },
+          { "text": "गर", "score": 0 },
+          { "text": "गढ़", "score": 0 },
+          { "text": "गडर", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-5",
+        "text": "कौन-सा अक्षर \"ग\" है?",
+        "correctAnswer": "ग",
+        "options": [
+          { "text": "क", "score": 0 },
+          { "text": "घ", "score": 0 },
+          { "text": "ग", "score": 1 },
+          { "text": "ङ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-6",
+        "text": "कौन-सा शब्द सही है? \"पुस्तक, पुस्तक़, पुसतक, पुस्‍तक\"",
+        "correctAnswer": "पुस्तक",
+        "options": [
+          { "text": "पुस्तक", "score": 1 },
+          { "text": "पुस्तक़", "score": 0 },
+          { "text": "पुसतक", "score": 0 },
+          { "text": "पुस्‍तक", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-7",
+        "text": "कौन-सा शब्द उल्टा अर्थ देता है? \"दिन, रात, सुबह, दोपहर\"",
+        "correctAnswer": "रात",
+        "options": [
+          { "text": "दिन", "score": 0 },
+          { "text": "रात", "score": 1 },
+          { "text": "सुबह", "score": 0 },
+          { "text": "दोपहर", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-8",
+        "text": "कौन-सा चित्र पहले दिखा था? 🌳 🚗 🏠",
+        "correctAnswer": "🌳",
+        "options": [
+          { "text": "🌳", "score": 1 },
+          { "text": "🚗", "score": 0 },
+          { "text": "🏠", "score": 0 },
+          { "text": "कोई नहीं", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-9",
+        "text": "कौन-सा शब्द बाकी से अलग है?",
+        "correctAnswer": "गाजर",
+        "options": [
+          { "text": "बिल्ली", "score": 0 },
+          { "text": "कुत्ता", "score": 0 },
+          { "text": "चिड़िया", "score": 0 },
+          { "text": "गाजर", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-10",
+        "text": "कौन-सा शब्द \"ब\" से शुरू होता है?",
+        "correctAnswer": "बिल्ली",
+        "options": [
+          { "text": "आम", "score": 0 },
+          { "text": "बिल्ली", "score": 1 },
+          { "text": "लड़का", "score": 0 },
+          { "text": "सेब", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-11",
+        "text": "\"मकान\" शब्द में कितने अक्षर हैं?",
+        "correctAnswer": "३",
+        "options": [
+          { "text": "३", "score": 1 },
+          { "text": "४", "score": 0 },
+          { "text": "५", "score": 0 },
+          { "text": "२", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-12",
+        "text": "कौन-सा शब्द गलत है?",
+        "correctAnswer": "कछा",
+        "options": [
+          { "text": "कक्षा", "score": 0 },
+          { "text": "कछा", "score": 1 },
+          { "text": "कषा", "score": 1 },
+          { "text": "कसा", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-13",
+        "text": "कौन-सा शब्द समान दिखता है लेकिन अर्थ अलग है?",
+        "correctAnswer": "खेल / खल",
+        "options": [
+          { "text": "साल / सैल", "score": 0 },
+          { "text": "खेल / खल", "score": 1 },
+          { "text": "फल / फाल", "score": 0 },
+          { "text": "दूध / दुध", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-14",
+        "text": "\"गेंद\" शब्द में कौन-सा अक्षर आख़िर में है?",
+        "correctAnswer": "द",
+        "options": [
+          { "text": "ग", "score": 0 },
+          { "text": "े", "score": 0 },
+          { "text": "द", "score": 1 },
+          { "text": "ं", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-15",
+        "text": "\"किताब\" शब्द में कितनी मात्राएँ हैं?",
+        "correctAnswer": "२",
+        "options": [
+          { "text": "१", "score": 0 },
+          { "text": "२", "score": 1 },
+          { "text": "३", "score": 0 },
+          { "text": "०", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-16",
+        "text": "\"१, २, ३, ४\" — कौन-सी संख्या गायब है?",
+        "correctAnswer": "कोई नहीं",
+        "options": [
+          { "text": "३", "score": 0 },
+          { "text": "२", "score": 0 },
+          { "text": "४", "score": 0 },
+          { "text": "१", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-17",
+        "text": "कौन-सा शब्द सही है?",
+        "correctAnswer": "बच्चा",
+        "options": [
+          { "text": "बच्छा", "score": 0 },
+          { "text": "बच्चा", "score": 1 },
+          { "text": "बच्छाा", "score": 0 },
+          { "text": "बच्छा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-18",
+        "text": "\"सूरज\" शब्द में कितनी ध्वनियाँ हैं?",
+        "correctAnswer": "४",
+        "options": [
+          { "text": "२", "score": 0 },
+          { "text": "३", "score": 0 },
+          { "text": "४", "score": 1 },
+          { "text": "५", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-19",
+        "text": "कौन-सा शब्द पढ़ने में मुश्किल है?",
+        "correctAnswer": "फर्श",
+        "options": [
+          { "text": "फल", "score": 0 },
+          { "text": "फूल", "score": 0 },
+          { "text": "फर्श", "score": 1 },
+          { "text": "फसल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-20",
+        "text": "\"कमल\" शब्द का अर्थ क्या है?",
+        "correctAnswer": "फूल",
+        "options": [
+          { "text": "फूल", "score": 1 },
+          { "text": "जानवर", "score": 0 },
+          { "text": "खाना", "score": 0 },
+          { "text": "पेड़", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-11-15": {
+    "expectedTimePerQuestion": 20,
+    "thresholdIncorrect": 8,
+    "thresholdSlowResponses": 6,
+    "questions": [
+      {
+        "id": "AGE11-15-1",
+        "text": "नीचे दिए में से सही शब्द कौन-सा है?",
+        "correctAnswer": "विद्यालय",
+        "options": [
+          { "text": "विद्यालय", "score": 1 },
+          { "text": "बिद्यालय", "score": 0 },
+          { "text": "विदयालय", "score": 0 },
+          { "text": "विध्यालय", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-2",
+        "text": "कौन-सा शब्द सही लिखा है?",
+        "correctAnswer": "समाधान",
+        "options": [
+          { "text": "समाधान", "score": 1 },
+          { "text": "समाधन", "score": 0 },
+          { "text": "समधान", "score": 0 },
+          { "text": "समादान", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-3",
+        "text": "कौन-सा शब्द सही है?",
+        "correctAnswer": "अभ्यास",
+        "options": [
+          { "text": "अभ्यास", "score": 1 },
+          { "text": "अभ्यस", "score": 0 },
+          { "text": "अभ्याँस", "score": 0 },
+          { "text": "अभ्यस", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-4",
+        "text": "कौन-सा अक्षर क्रम सही है?",
+        "correctAnswer": "क, ख, ग, घ, ङ",
+        "options": [
+          { "text": "क, ख, ग, घ, ङ", "score": 1 },
+          { "text": "क, ग, ख, घ, ङ", "score": 0 },
+          { "text": "ख, क, ग, ङ, घ", "score": 0 },
+          { "text": "क, घ, ग, ख, ङ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-5",
+        "text": "नीचे दिए शब्दों में से कौन बाकी से अलग है?",
+        "correctAnswer": "बस्ता",
+        "options": [
+          { "text": "मेज़", "score": 0 },
+          { "text": "कुर्सी", "score": 0 },
+          { "text": "बस्ता", "score": 1 },
+          { "text": "पंखा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-6",
+        "text": "कौन-सा शब्द पढ़ने में मुश्किल है?",
+        "correctAnswer": "अर्थशास्त्र",
+        "options": [
+          { "text": "विद्यालय", "score": 0 },
+          { "text": "अध्यापक", "score": 0 },
+          { "text": "अर्थशास्त्र", "score": 1 },
+          { "text": "खेल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-7",
+        "text": "कौन-सा शब्द की वर्तनी गलत है?",
+        "correctAnswer": "विधार्थी",
+        "options": [
+          { "text": "विद्यार्थी", "score": 0 },
+          { "text": "विधार्थी", "score": 1 },
+          { "text": "विद्यार्थी", "score": 0 },
+          { "text": "विध्यार्थी", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE11-15-8",
+        "text": "\"कक्षा\" शब्द में कितनी मात्राएँ हैं?",
+        "correctAnswer": "२",
+        "options": [
+          { "text": "१", "score": 0 },
+          { "text": "२", "score": 1 },
+          { "text": "३", "score": 0 },
+          { "text": "०", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-9",
+        "text": "नीचे दिए विकल्प में से कौन-सा शब्द जल्दी बोलना मुश्किल है?",
+        "correctAnswer": "कक्ष",
+        "options": [
+          { "text": "कमल", "score": 0 },
+          { "text": "कक्ष", "score": 1 },
+          { "text": "कछुआ", "score": 0 },
+          { "text": "कपड़ा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-10",
+        "text": "कौन-सा शब्द 'ख' से शुरू होता है?",
+        "correctAnswer": "खेल",
+        "options": [
+          { "text": "घर", "score": 0 },
+          { "text": "खेल", "score": 1 },
+          { "text": "झील", "score": 0 },
+          { "text": "फल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-11",
+        "text": "नीचे में से सही जोड़ी कौन-सी है?",
+        "correctAnswer": "सब सही",
+        "options": [
+          { "text": "दिन-रात", "score": 1 },
+          { "text": "गर्म-ठंडा", "score": 1 },
+          { "text": "बड़ा-छोटा", "score": 1 },
+          { "text": "सब सही", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE11-15-12",
+        "text": "\"कागज़\" शब्द में आख़िरी अक्षर कौन-सा है?",
+        "correctAnswer": "ज़",
+        "options": [
+          { "text": "क", "score": 0 },
+          { "text": "ग", "score": 0 },
+          { "text": "ज़", "score": 1 },
+          { "text": "ा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-13",
+        "text": "कौन-सा शब्द बाकी से समान नहीं है?",
+        "correctAnswer": "सड़क",
+        "options": [
+          { "text": "पिता", "score": 0 },
+          { "text": "माँ", "score": 0 },
+          { "text": "भाई", "score": 0 },
+          { "text": "सड़क", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE11-15-14",
+        "text": "कौन-सा शब्द उलझाने वाला है?",
+        "correctAnswer": "घड़ी",
+        "options": [
+          { "text": "घर", "score": 0 },
+          { "text": "घड़ी", "score": 1 },
+          { "text": "घटा", "score": 0 },
+          { "text": "घास", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-15",
+        "text": "\"भारत\" शब्द में कितने अक्षर हैं?",
+        "correctAnswer": "४",
+        "options": [
+          { "text": "२", "score": 0 },
+          { "text": "३", "score": 0 },
+          { "text": "४", "score": 1 },
+          { "text": "५", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-16",
+        "text": "नीचे के क्रम में क्या गायब है? १, २, __, ४",
+        "correctAnswer": "३",
+        "options": [
+          { "text": "३", "score": 1 },
+          { "text": "५", "score": 0 },
+          { "text": "०", "score": 0 },
+          { "text": "६", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-17",
+        "text": "कौन-सा शब्द समान अर्थ नहीं रखता?",
+        "correctAnswer": "पेड़-आसमान",
+        "options": [
+          { "text": "भोजन-खाना", "score": 0 },
+          { "text": "शिक्षा-पढ़ाई", "score": 0 },
+          { "text": "पेड़-आसमान", "score": 1 },
+          { "text": "मित्र-दोस्त", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-18",
+        "text": "\"शब्द\" में 'श' की जगह कौन-सा अक्षर आ जाए तो अर्थ बदल जाएगा?",
+        "correctAnswer": "दोनों",
+        "options": [
+          { "text": "स", "score": 1 },
+          { "text": "ष", "score": 1 },
+          { "text": "दोनों", "score": 1 },
+          { "text": "कोई नहीं", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-19",
+        "text": "कौन-सा शब्द सही है?",
+        "correctAnswer": "सुंदर",
+        "options": [
+          { "text": "सुंदर", "score": 1 },
+          { "text": "सुन्दर", "score": 1 },
+          { "text": "सुंदार", "score": 0 },
+          { "text": "सुंदर्र", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-20",
+        "text": "कौन-सा शब्द सबसे कठिन पढ़ाई से जुड़ा है?",
+        "correctAnswer": "पाठ्यक्रम",
+        "options": [
+          { "text": "किताब", "score": 0 },
+          { "text": "पाठ्यक्रम", "score": 1 },
+          { "text": "कॉपी", "score": 0 },
+          { "text": "पेन", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-16-plus": {
+    "expectedTimePerQuestion": 25,
+    "thresholdIncorrect": 9,
+    "thresholdSlowResponses": 7,
+    "questions": [
+      {
+        "id": "AGE16+-1",
+        "text": "सही शब्द कौन-सा है?",
+        "correctAnswer": "प्रेरणा",
+        "options": [
+          { "text": "प्रेरणा", "score": 1 },
+          { "text": "प्रेर्णा", "score": 0 },
+          { "text": "परेणा", "score": 0 },
+          { "text": "प्रेर्णा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-2",
+        "text": "नीचे दिए शब्दों में सही वर्तनी पहचानिए:",
+        "correctAnswer": "व्यवसाय",
+        "options": [
+          { "text": "व्यवसाय", "score": 1 },
+          { "text": "व्यवसय", "score": 0 },
+          { "text": "व्यावसाय", "score": 0 },
+          { "text": "ब्यवसाय", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-3",
+        "text": "वाक्य पूरा करें – \"मैं ____ नौकरी कर रहा हूँ।\"",
+        "correctAnswer": "हैं",
+        "options": [
+          { "text": "कि", "score": 0 },
+          { "text": "की", "score": 0 },
+          { "text": "के", "score": 0 },
+          { "text": "हैं", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE16+-4",
+        "text": "कौन-सा शब्द अर्थ में अलग है?",
+        "correctAnswer": "अपमान",
+        "options": [
+          { "text": "आदर", "score": 0 },
+          { "text": "सम्मान", "score": 0 },
+          { "text": "अपमान", "score": 1 },
+          { "text": "प्रोत्साहन", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-5",
+        "text": "सही शब्द चुनिए:",
+        "correctAnswer": "आवश्यकता",
+        "options": [
+          { "text": "आवश्यकता", "score": 1 },
+          { "text": "आवश्यक्ता", "score": 0 },
+          { "text": "आवशकता", "score": 0 },
+          { "text": "आवष्यकता", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-6",
+        "text": "नीचे कौन-सा शब्द सही लिखा गया है?",
+        "correctAnswer": "अनुभव",
+        "options": [
+          { "text": "अनुभव", "score": 1 },
+          { "text": "अनूभव", "score": 0 },
+          { "text": "अनुबव", "score": 0 },
+          { "text": "अनूभभ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-7",
+        "text": "\"संगठन\" शब्द में कितनी मात्राएँ हैं?",
+        "correctAnswer": "२",
+        "options": [
+          { "text": "२", "score": 1 },
+          { "text": "३", "score": 0 },
+          { "text": "४", "score": 0 },
+          { "text": "५", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-8",
+        "text": "कौन-सा शब्द पढ़ने में कठिन है?",
+        "correctAnswer": "समाजशास्त्र",
+        "options": [
+          { "text": "समाजशास्त्र", "score": 1 },
+          { "text": "भारत", "score": 0 },
+          { "text": "पुस्तक", "score": 0 },
+          { "text": "खेल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-9",
+        "text": "कौन-सा शब्द का उच्चारण मिलता-जुलता है पर अर्थ अलग है?",
+        "correctAnswer": "मान / माण",
+        "options": [
+          { "text": "फल / फलना", "score": 0 },
+          { "text": "खेल / खेलना", "score": 0 },
+          { "text": "घर / घेर", "score": 0 },
+          { "text": "मान / माण", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE16+-10",
+        "text": "\"प्रबंधन\" शब्द में कौन-सा अक्षर बीच में आता है?",
+        "correctAnswer": "बं",
+        "options": [
+          { "text": "ग", "score": 0 },
+          { "text": "न", "score": 0 },
+          { "text": "म", "score": 0 },
+          { "text": "ध", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-11",
+        "text": "\"शिक्षा\" और \"दीक्षा\" शब्दों में समान भाग कौन-सा है?",
+        "correctAnswer": "क्षा",
+        "options": [
+          { "text": "क्षा", "score": 1 },
+          { "text": "षा", "score": 0 },
+          { "text": "शा", "score": 0 },
+          { "text": "का", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-12",
+        "text": "नीचे कौन-सा शब्द समान नहीं है?",
+        "correctAnswer": "खेल",
+        "options": [
+          { "text": "पढ़ाई", "score": 0 },
+          { "text": "अध्ययन", "score": 0 },
+          { "text": "खेल", "score": 1 },
+          { "text": "शिक्षा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-13",
+        "text": "कौन-सा शब्द सही लिखा है?",
+        "correctAnswer": "निर्णय",
+        "options": [
+          { "text": "निर्णय", "score": 1 },
+          { "text": "निणय", "score": 0 },
+          { "text": "नीरन्य", "score": 0 },
+          { "text": "निर्नय", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-14",
+        "text": "नीचे कौन-सा शब्द गलत है?",
+        "correctAnswer": "शिशक",
+        "options": [
+          { "text": "शिक्षक", "score": 0 },
+          { "text": "अध्यापक", "score": 0 },
+          { "text": "शिशक", "score": 1 },
+          { "text": "गुरु", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-15",
+        "text": "\"समय\" शब्द में कौन-सा अक्षर पहले आता है?",
+        "correctAnswer": "स",
+        "options": [
+          { "text": "स", "score": 1 },
+          { "text": "म", "score": 0 },
+          { "text": "य", "score": 0 },
+          { "text": "म्", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-16",
+        "text": "कौन-सा शब्द सही वाक्य में फिट होगा — \"मुझे ____ पर भरोसा है।\"",
+        "correctAnswer": "अपने",
+        "options": [
+          { "text": "अपनी", "score": 0 },
+          { "text": "अपना", "score": 0 },
+          { "text": "अपने", "score": 1 },
+          { "text": "अपनीं", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-17",
+        "text": "कौन-सा शब्द 'क' से शुरू होता है और पढ़ने में कठिन है?",
+        "correctAnswer": "काश्तकार",
+        "options": [
+          { "text": "कल्पना", "score": 0 },
+          { "text": "कछुआ", "score": 0 },
+          { "text": "काश्तकार", "score": 1 },
+          { "text": "कपड़ा", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-18",
+        "text": "कौन-सा शब्द देखने में समान लगता है पर अर्थ में बदल जाता है?",
+        "correctAnswer": "नाम / नम",
+        "options": [
+          { "text": "फल / फसल", "score": 0 },
+          { "text": "बाल / बॉल", "score": 0 },
+          { "text": "नाम / नम", "score": 1 },
+          { "text": "कमल / कमाल", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-19",
+        "text": "\"संविधान\" शब्द में कौन-सा हिस्सा उच्चारण में कठिन है?",
+        "correctAnswer": "धा",
+        "options": [
+          { "text": "सं", "score": 0 },
+          { "text": "वि", "score": 0 },
+          { "text": "धा", "score": 1 },
+          { "text": "न", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-20",
+        "text": "कौन-सा शब्द बाकी से अर्थ में अलग है?",
+        "correctAnswer": "चिकित्सालय",
+        "options": [
+          { "text": "विद्यालय", "score": 0 },
+          { "text": "विश्वविद्यालय", "score": 0 },
+          { "text": "पाठशाला", "score": 0 },
+          { "text": "चिकित्सालय", "score": 1 }
+        ]
+      }
+    ]
+  }
+}

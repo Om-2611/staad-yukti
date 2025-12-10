@@ -1,0 +1,25 @@
+﻿{
+  "inattentive": {
+    "behavioralQuestions": [
+      { "id": "PI-1", "text": "कय वह ववरण पर धयन नह दत य गहकरय म लपरवह स गलतय करत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभर", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अकसर", "score": 1 } ] },
+      { "id": "PI-2", "text": "कय उस करय य गतवधय पर धयन कदरत करन म कठनई हत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-3", "text": "कय वह सध बत करन पर भ नह सनत  ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-4", "text": "कय वह नरदश क पलन नह करत और सकल क कम पर नह करत (वरध वयवहर य समझ क कम क करण नह)", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-5", "text": "कय उस करय क वयवसथत करन म कठनई हत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-6", "text": "कय वह ऐस करय म सलगन हन स बचत ह, नपसद करत ह य अनचछक रहत ह जनम मनसक परयस क आवशयकत हत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-7", "text": "कय वह करय क लए आवशयक चज ख दत ह (सकल असइनमट, पसल, य कतब)", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-8", "text": "कय वह बहर उततजनओ स आसन स वचलत ह जत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] },
+      { "id": "PI-9", "text": "कय वह दनक करय क भल जत ह", "options": [ { "text": "कभ नह", "score": 0 }, { "text": "कभ-कभ", "score": 0 }, { "text": "अकसर", "score": 1 }, { "text": "बहत अधक", "score": 1 } ] }
+    ],
+    "performanceQuestions": [
+      { "id": "PI-Perf-1", "text": "पढन म परदरशन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-2", "text": "गणत म परदरशन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-3", "text": "लखत म भवनओ क परदरशन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-4", "text": "सथय क सथ सबध", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-5", "text": "नरदश/नयम क पलन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-6", "text": "ककष म बध डलन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-7", "text": "असइनमट पर करन", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] },
+      { "id": "PI-Perf-8", "text": "सगठनतमक कशल", "options": [ { "text": "1- बहत समसयगरसत", "score": 1 }, { "text": "2- समसयगरसत", "score": 1 }, { "text": "3- औसत स कम", "score": 0 }, { "text": "4- औसत", "score": 0 }, { "text": "5- अचछ", "score": 0 } ] }
+    ]
+  }
+}

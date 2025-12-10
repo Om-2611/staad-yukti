@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* STAAD Design System - Vibrant & Accessible */
+    
+    /* Base Colors */
+    --background: 220 64% 10%; /* Deep navy #08102A */
+    --foreground: 210 43% 98%; /* Off-white #F4F8FB */
+
+    --card: 220 50% 15%;
+    --card-foreground: 210 43% 98%;
+
+    --popover: 220 50% 12%;
+    --popover-foreground: 210 43% 98%;
+
+    /* Primary - Teal */
+    --primary: 169 100% 38%; /* Teal #00C2A8 */
+    --primary-foreground: 220 64% 10%;
+
+    /* Secondary - Coral */
+    --secondary: 358 100% 68%; /* Coral #FF5A5F */
+    --secondary-foreground: 210 43% 98%;
+
+    /* Accent - Gold */
+    --accent: 38 100% 64%; /* Gold #FFB648 */
+    --accent-foreground: 220 64% 10%;
+
+    --muted: 220 40% 25%;
+    --muted-foreground: 210 20% 70%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 43% 98%;
+
+    --border: 220 30% 20%;
+    --input: 220 30% 18%;
+    --ring: 169 100% 38%;
+
+    --radius: 1rem;
+
+    /* Custom Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220, 64%, 10%) 0%, hsl(169, 100%, 38%) 100%);
+    --gradient-coral: linear-gradient(135deg, hsl(358, 100%, 68%) 0%, hsl(38, 100%, 64%) 100%);
+    
+    /* Glow Effects */
+    --glow-primary: 0 0 20px hsl(169 100% 38% / 0.5);
+    --glow-secondary: 0 0 20px hsl(358 100% 68% / 0.5);
+    --glow-accent: 0 0 20px hsl(38 100% 64% / 0.5);
+
+    /* Shadows */
+    --shadow-elevated: 0 10px 40px -10px hsl(220 64% 5% / 0.5);
+    --shadow-card: 0 4px 20px hsl(220 64% 5% / 0.3);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+  
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins antialiased;
+    background: linear-gradient(135deg, hsl(220, 64%, 10%) 0%, hsl(169, 100%, 20%) 100%);
+    min-height: 100vh;
+  }
+
+  /* Custom Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 10px hsl(169 100% 38% / 0.3); }
+    50% { box-shadow: 0 0 30px hsl(169 100% 38% / 0.6); }
+  }
+
+  @keyframes slide-in-right {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+
+  @keyframes slide-in-left {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+
+  @keyframes pop-in {
+    0% { transform: scale(0.8); opacity: 0; }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes confetti {
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s ease-out;
+  }
+
+  .animate-slide-in-left {
+    animation: slide-in-left 0.5s ease-out;
+  }
+
+  .animate-pop-in {
+    animation: pop-in 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  /* Glassmorphism */
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-card {
+    background: rgba(8, 16, 42, 0.6);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 194, 168, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 194, 168, 0.15);
+  }
+
+  .glass-button {
+    background: rgba(0, 194, 168, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 194, 168, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .glass-button:hover {
+    background: rgba(0, 194, 168, 0.2);
+    box-shadow: 0 0 20px rgba(0, 194, 168, 0.4);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(169, 100%, 38%) 0%, hsl(38, 100%, 64%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

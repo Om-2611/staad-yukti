@@ -1,0 +1,910 @@
+{
+  "age-4-6": {
+    "expectedTimePerQuestion": 12.5,
+    "thresholdIncorrect": 6,
+    "thresholdSlowResponses": 4,
+    "questions": [
+      {
+        "id": "AGE4-6-1",
+        "text": "ఏది ఎరుపు రంగులో ఉంది?",
+        "correctAnswer": "🟥",
+        "options": [
+          { "text": "🟥", "score": 1 },
+          { "text": "🟦", "score": 0 },
+          { "text": "🟨", "score": 0 },
+          { "text": "🟩", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-2",
+        "text": "ఏ ఆకారం గుండ్రంగా ఉంది?",
+        "correctAnswer": "⚪",
+        "options": [
+          { "text": "⚪", "score": 1 },
+          { "text": "🔺", "score": 0 },
+          { "text": "⬛", "score": 0 },
+          { "text": "⬜", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-3",
+        "text": "క్రింది వాటిలో ౧ ఏది?",
+        "correctAnswer": "౧",
+        "options": [
+          { "text": "౧", "score": 1 },
+          { "text": "౨", "score": 0 },
+          { "text": "౩", "score": 0 },
+          { "text": "౪", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-4",
+        "text": "ఈ అక్షరాలలో క ఏది?",
+        "correctAnswer": "క",
+        "options": [
+          { "text": "క", "score": 1 },
+          { "text": "గ", "score": 0 },
+          { "text": "చ", "score": 0 },
+          { "text": "త", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-5",
+        "text": "ఈ చిత్రాలలో ఏది పెద్దది?",
+        "correctAnswer": "🍉",
+        "options": [
+          { "text": "🍎", "score": 0 },
+          { "text": "🍉", "score": 1 },
+          { "text": "🍒", "score": 0 },
+          { "text": "🍓", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-6",
+        "text": "ఏ చిత్రం స్కూల్‌లో కనిపించదు?",
+        "correctAnswer": "చెట్టు",
+        "options": [
+          { "text": "పుస్తకం", "score": 0 },
+          { "text": "బస్తా", "score": 0 },
+          { "text": "చెట్టు", "score": 1 },
+          { "text": "పెన్సిల్", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-7",
+        "text": "ఈ రెండు చిత్రాలలో ఏవి ఒకేలా ఉన్నాయి?",
+        "correctAnswer": "🍎🍎🍌",
+        "options": [
+          { "text": "🍎🍌🍎", "score": 0 },
+          { "text": "🍌🍎🍎", "score": 1 },
+          { "text": "🍎🍎🍌", "score": 1 },
+          { "text": "🍌🍌🍎", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-8",
+        "text": "ఈ చిత్రాలలో చిన్నది ఏది?",
+        "correctAnswer": "⚫",
+        "options": [
+          { "text": "⚫⚫⚫⚫", "score": 0 },
+          { "text": "⚫⚫⚫", "score": 0 },
+          { "text": "⚫⚫", "score": 0 },
+          { "text": "⚫", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-9",
+        "text": "ఈ అక్షరాలలో వేరు గా ఉన్నది ఏది?",
+        "correctAnswer": "జ",
+        "options": [
+          { "text": "క", "score": 0 },
+          { "text": "ఖ", "score": 0 },
+          { "text": "గ", "score": 0 },
+          { "text": "జ", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-10",
+        "text": "ఏ సంఖ్య చిన్నది?",
+        "correctAnswer": "౧",
+        "options": [
+          { "text": "౨", "score": 0 },
+          { "text": "౩", "score": 0 },
+          { "text": "౪", "score": 0 },
+          { "text": "౧", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE4-6-11",
+        "text": "జంతువును తాకు",
+        "correctAnswer": "🐱",
+        "options": [
+          { "text": "🐱", "score": 1 },
+          { "text": "🍎", "score": 0 },
+          { "text": "🪑", "score": 0 },
+          { "text": "🚗", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-12",
+        "text": "ఈ వరుసలో మొదటిది ఏది? 🍎🍌🍇",
+        "correctAnswer": "🍎",
+        "options": [
+          { "text": "🍎", "score": 1 },
+          { "text": "🍌", "score": 0 },
+          { "text": "🍇", "score": 0 },
+          { "text": "🍓", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-13",
+        "text": "ఆకాశం రంగు ఏది?",
+        "correctAnswer": "🟦",
+        "options": [
+          { "text": "🟦", "score": 1 },
+          { "text": "🟥", "score": 0 },
+          { "text": "🟢", "score": 0 },
+          { "text": "🟨", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-14",
+        "text": "ఏ సంఖ్య పెద్దది? 5 2",
+        "correctAnswer": "5",
+        "options": [
+          { "text": "5", "score": 1 },
+          { "text": "2", "score": 0 },
+          { "text": "1", "score": 0 },
+          { "text": "3", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-15",
+        "text": "బొమ్మను తాకు",
+        "correctAnswer": "🧸",
+        "options": [
+          { "text": "🧸", "score": 1 },
+          { "text": "🪴", "score": 0 },
+          { "text": "🍎", "score": 0 },
+          { "text": "🕯", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-16",
+        "text": "ఏ రెండు ఆకారాలు ఒకేలా ఉన్నాయి? 🔵 🟦 🟦 🔵",
+        "correctAnswer": "🟦",
+        "options": [
+          { "text": "🔵", "score": 0 },
+          { "text": "🟦", "score": 1 },
+          { "text": "🟨", "score": 0 },
+          { "text": "🟥", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-17",
+        "text": "ఫలం ఏది?",
+        "correctAnswer": "🍎",
+        "options": [
+          { "text": "🍎", "score": 1 },
+          { "text": "🥕", "score": 0 },
+          { "text": "🧀", "score": 0 },
+          { "text": "🍗", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-18",
+        "text": "నీరు చూపించే చిత్రం ఏది?",
+        "correctAnswer": "🌊",
+        "options": [
+          { "text": "🌊", "score": 1 },
+          { "text": "🌳", "score": 0 },
+          { "text": "🌸", "score": 0 },
+          { "text": "🔥", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-19",
+        "text": "సంతోషంగా ఉన్న ముఖం ఏది?",
+        "correctAnswer": "😊",
+        "options": [
+          { "text": "😊", "score": 1 },
+          { "text": "😢", "score": 0 },
+          { "text": "😡", "score": 0 },
+          { "text": "😴", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE4-6-20",
+        "text": "ఎది ఎగరగలదు?",
+        "correctAnswer": "🐦",
+        "options": [
+          { "text": "🐘", "score": 0 },
+          { "text": "🐦", "score": 1 },
+          { "text": "🐍", "score": 0 },
+          { "text": "🐢", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-7-10": {
+    "expectedTimePerQuestion": 15,
+    "thresholdIncorrect": 7,
+    "thresholdSlowResponses": 5,
+    "questions": [
+      {
+        "id": "AGE7-10-1",
+        "text": "\"పుస్తకం, పుసతకం, పుస్తకమ్, పుస్తఁకం\" — సరైన పదం ఏది?",
+        "correctAnswer": "పుస్తకం",
+        "options": [
+          { "text": "పుస్తకం", "score": 1 },
+          { "text": "పుసతకం", "score": 0 },
+          { "text": "పుస్తకమ్", "score": 0 },
+          { "text": "పుస్తఁకం", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-2",
+        "text": "\"నది, నదిి, నదీ, నడి\" — సరైన పదం ఏది?",
+        "correctAnswer": "నది",
+        "options": [
+          { "text": "నది", "score": 1 },
+          { "text": "నదీ", "score": 0 },
+          { "text": "నడి", "score": 0 },
+          { "text": "నదిి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-3",
+        "text": "\"తాత, దాత, తత, దద\" — సరైన పదం ఏది?",
+        "correctAnswer": "తాత",
+        "options": [
+          { "text": "తాత", "score": 1 },
+          { "text": "దాత", "score": 0 },
+          { "text": "తత", "score": 0 },
+          { "text": "దద", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-4",
+        "text": "\"పండు, పందు, పండూ, పందూ\" — సరైన పదం ఏది?",
+        "correctAnswer": "పండు",
+        "options": [
+          { "text": "పండు", "score": 1 },
+          { "text": "పందు", "score": 0 },
+          { "text": "పండూ", "score": 0 },
+          { "text": "పందూ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-5",
+        "text": "\"బడి\" అనే పదం ఏ అక్షరంతో మొదలవుతుంది?",
+        "correctAnswer": "బ",
+        "options": [
+          { "text": "బ", "score": 1 },
+          { "text": "ద", "score": 0 },
+          { "text": "ప", "score": 0 },
+          { "text": "త", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-6",
+        "text": "\"పక్షి, పక్షీ, పక్షిి, పక్షి\" — సరైన పదం ఏది?",
+        "correctAnswer": "పక్షి",
+        "options": [
+          { "text": "పక్షి", "score": 1 },
+          { "text": "పక్షీ", "score": 0 },
+          { "text": "పక్షిి", "score": 0 },
+          { "text": "పక్షి", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-7",
+        "text": "ఈ పదాలలో ఏది భిన్నం?",
+        "correctAnswer": "వర్షం",
+        "options": [
+          { "text": "పాఠశాల", "score": 0 },
+          { "text": "గురువు", "score": 0 },
+          { "text": "బల్ల", "score": 0 },
+          { "text": "వర్షం", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-8",
+        "text": "\"ఆకు\" పదంలో ఎన్ని అక్షరాలు ఉన్నాయి?",
+        "correctAnswer": "౨",
+        "options": [
+          { "text": "౨", "score": 1 },
+          { "text": "౩", "score": 0 },
+          { "text": "౪", "score": 0 },
+          { "text": "౧", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-9",
+        "text": "\"అమ్మ\" పదంలో ఎన్ని మాతృకలు ఉన్నాయి?",
+        "correctAnswer": "౨",
+        "options": [
+          { "text": "౧", "score": 0 },
+          { "text": "౨", "score": 1 },
+          { "text": "౩", "score": 0 },
+          { "text": "౪", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-10",
+        "text": "\"కుక్క, పిల్లి, మేక, బల్ల\" — వేరుగా ఉన్నది ఏది?",
+        "correctAnswer": "బల్ల",
+        "options": [
+          { "text": "కుక్క", "score": 0 },
+          { "text": "పిల్లి", "score": 0 },
+          { "text": "మేక", "score": 0 },
+          { "text": "బల్ల", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-11",
+        "text": "'ఎం' తరువాత వచ్చే అక్షరం ఏది?",
+        "correctAnswer": "ఎన్",
+        "options": [
+          { "text": "ఎన్", "score": 1 },
+          { "text": "ఓ", "score": 0 },
+          { "text": "ఎల్", "score": 0 },
+          { "text": "పీ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-12",
+        "text": "'ఎస్' అక్షరంతో ప్రారంభమయ్యే పదాన్ని తాకు",
+        "correctAnswer": "సూర్యుడు",
+        "options": [
+          { "text": "మరం", "score": 0 },
+          { "text": "కారు", "score": 0 },
+          { "text": "సూర్యుడు", "score": 1 },
+          { "text": "చెవి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-13",
+        "text": "చతురస్రానికి సరిపడే ఆకారం ఏది?",
+        "correctAnswer": "🟥",
+        "options": [
+          { "text": "🟩", "score": 1 },
+          { "text": "🔵", "score": 0 },
+          { "text": "🟨", "score": 1 },
+          { "text": "🟥", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-14",
+        "text": "\"బంతి\" అనే పదానికి తాళుక్కునే పదం ఏది?",
+        "correctAnswer": "పొడవైన",
+        "options": [
+          { "text": "పొడవైన", "score": 1 },
+          { "text": "పుస్తకం", "score": 0 },
+          { "text": "పెన్", "score": 0 },
+          { "text": "పరుగు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-15",
+        "text": "ఇవాటిలో సంఖ్య ఏది?",
+        "correctAnswer": "ఐదు",
+        "options": [
+          { "text": "ఐదు", "score": 1 },
+          { "text": "చేప", "score": 0 },
+          { "text": "గాలివాటం", "score": 0 },
+          { "text": "మంట", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-16",
+        "text": "ఇతర వాటి కంటే భిన్నమైనది ఏది?",
+        "correctAnswer": "తలపాగా",
+        "options": [
+          { "text": "పిల్లి", "score": 0 },
+          { "text": "గబ్బిలం", "score": 0 },
+          { "text": "ఎలుక", "score": 0 },
+          { "text": "తలపాగా", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE7-10-17",
+        "text": "ఒకే సంఖ్యలు ఏవి? ఆరు, తొమ్మిది, ఆరు, నాలుగు",
+        "correctAnswer": "ఆరు",
+        "options": [
+          { "text": "ఆరు", "score": 1 },
+          { "text": "తొమ్మిది", "score": 0 },
+          { "text": "నాలుగు", "score": 0 },
+          { "text": "ఐదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-18",
+        "text": "జంతువును తాకు",
+        "correctAnswer": "🐱",
+        "options": [
+          { "text": "🐱", "score": 1 },
+          { "text": "🍎", "score": 0 },
+          { "text": "🪑", "score": 0 },
+          { "text": "🚗", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-19",
+        "text": "మళ్లీ మళ్లీ వచ్చే అక్షర నమూనా ఏది?",
+        "correctAnswer": "అబఅబ",
+        "options": [
+          { "text": "అబఅబ", "score": 1 },
+          { "text": "అఅబబ", "score": 0 },
+          { "text": "అబసద", "score": 0 },
+          { "text": "అబసఅ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE7-10-20",
+        "text": "అక్షర క్రమం ప్రకారం మొదటిది ఏది?",
+        "correctAnswer": "ఆపిల్",
+        "options": [
+          { "text": "బంతి", "score": 0 },
+          { "text": "ఆపిల్", "score": 1 },
+          { "text": "పిల్లి", "score": 0 },
+          { "text": "కుక్క", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-11-15": {
+    "expectedTimePerQuestion": 20,
+    "thresholdIncorrect": 8,
+    "thresholdSlowResponses": 6,
+    "questions": [
+      {
+        "id": "AGE11-15-1",
+        "text": "\"పద్మ\" మరియు \"పద్మా\" పదాలు ఒకేనా?",
+        "correctAnswer": "కాదు",
+        "options": [
+          { "text": "అవును", "score": 0 },
+          { "text": "కాదు", "score": 1 },
+          { "text": "ఒకేలా వినిపిస్తాయి", "score": 0 },
+          { "text": "తెలియదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-2",
+        "text": "\"భారత\" పదం చివరి అక్షరం ఏది?",
+        "correctAnswer": "త",
+        "options": [
+          { "text": "త", "score": 1 },
+          { "text": "ర", "score": 0 },
+          { "text": "భా", "score": 0 },
+          { "text": "హ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-3",
+        "text": "\"౫ – ౬ – ౭ – ?\" తర్వాత ఏది వస్తుంది?",
+        "correctAnswer": "౮",
+        "options": [
+          { "text": "౮", "score": 1 },
+          { "text": "౯", "score": 0 },
+          { "text": "౪", "score": 0 },
+          { "text": "౭", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-4",
+        "text": "\"పక్షి ఎగిరింది\" లో చర్య ఏది?",
+        "correctAnswer": "ఎగిరింది",
+        "options": [
+          { "text": "పక్షి", "score": 0 },
+          { "text": "ఎగిరింది", "score": 1 },
+          { "text": "లో", "score": 0 },
+          { "text": "లేదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-5",
+        "text": "\"క\" తో మొదలై \"ం\" తో ముగిసే పదం ఏది?",
+        "correctAnswer": "కారం",
+        "options": [
+          { "text": "కారం", "score": 1 },
+          { "text": "కూల్", "score": 0 },
+          { "text": "కాలం", "score": 1 },
+          { "text": "కత్తి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-6",
+        "text": "\"త\" మరియు \"థ\" ఎప్పుడూ కలిసిపోతాయా?",
+        "correctAnswer": "కాదు",
+        "options": [
+          { "text": "అవును", "score": 0 },
+          { "text": "కాదు", "score": 1 },
+          { "text": "కొన్నిసార్లు", "score": 0 },
+          { "text": "తెలియదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-7",
+        "text": "\"అ–ఆ–ఇ–ఈ–?\" తర్వాత ఏ అక్షరం?",
+        "correctAnswer": "ఉ",
+        "options": [
+          { "text": "ఉ", "score": 1 },
+          { "text": "ఏ", "score": 0 },
+          { "text": "ఐ", "score": 0 },
+          { "text": "ఋ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-8",
+        "text": "ఈ పదాల్లో సరియైనది ఏది?",
+        "correctAnswer": "విద్యాలయం",
+        "options": [
+          { "text": "విద్యాలయము", "score": 0 },
+          { "text": "విద్యాలయం", "score": 1 },
+          { "text": "విద్డయలయం", "score": 0 },
+          { "text": "విద్యలయం", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-9",
+        "text": "\"భూమి\" కి వ్యతిరేక పదం ఏది?",
+        "correctAnswer": "ఆకాశం",
+        "options": [
+          { "text": "ఆకాశం", "score": 1 },
+          { "text": "భూమి", "score": 0 },
+          { "text": "సూర్యుడు", "score": 0 },
+          { "text": "నేల", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-10",
+        "text": "ఈ రెండింట్లో సరైన వాక్యం ఏది?",
+        "correctAnswer": "పిల్లి పాలు తాగింది",
+        "options": [
+          { "text": "పిల్లి పాలు తాగింది", "score": 1 },
+          { "text": "పాలు పిల్లి తాగింది", "score": 0 },
+          { "text": "పిల్లి తాగింది పాలు", "score": 0 },
+          { "text": "తాగింది పిల్లి పాలు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-11",
+        "text": "ఒకేలా కనిపించే (బి / డి) అక్షరాలు ఉన్న పదాన్ని తాకు",
+        "correctAnswer": "బెడ్",
+        "options": [
+          { "text": "బెడ్", "score": 1 },
+          { "text": "బ్యాడ్", "score": 0 },
+          { "text": "బడ్", "score": 0 },
+          { "text": "బిడ్", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-12",
+        "text": "తప్పుగా వ్రాయబడిన పదం ఏది?",
+        "correctAnswer": "టైగర్",
+        "options": [
+          { "text": "ఏనుగు", "score": 0 },
+          { "text": "జిరాఫీ", "score": 0 },
+          { "text": "సింహం", "score": 0 },
+          { "text": "టైగర్", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE11-15-13",
+        "text": "\"టూ\" అనే పదంలా వినిపించే పదం ఏది?",
+        "correctAnswer": "టూ",
+        "options": [
+          { "text": "టూ", "score": 1 },
+          { "text": "టూ", "score": 1 },
+          { "text": "టో", "score": 0 },
+          { "text": "టాయ్", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-14",
+        "text": "క్రియ (చర్య చూపే పదం) ఏది?",
+        "correctAnswer": "పరుగెత్తు",
+        "options": [
+          { "text": "పరుగెత్తు", "score": 1 },
+          { "text": "కారు", "score": 0 },
+          { "text": "కుర్చీ", "score": 0 },
+          { "text": "కొండ", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-15",
+        "text": "\"సంతోషం\" అనే పదానికి సమానార్థకం ఏది?",
+        "correctAnswer": "ఆనందం",
+        "options": [
+          { "text": "దుఃఖం", "score": 0 },
+          { "text": "ఆనందం", "score": 1 },
+          { "text": "కోపం", "score": 0 },
+          { "text": "అలసట", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-16",
+        "text": "ఏ సంఖ్య మిస్సయ్యింది? 12, 14, __, 18",
+        "correctAnswer": "16",
+        "options": [
+          { "text": "16", "score": 1 },
+          { "text": "13", "score": 0 },
+          { "text": "15", "score": 0 },
+          { "text": "17", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-17",
+        "text": "అక్షర క్రమం ప్రకారం మొదటిది ఏది?",
+        "correctAnswer": "ఆపిల్",
+        "options": [
+          { "text": "కుక్క", "score": 0 },
+          { "text": "ఆపిల్", "score": 1 },
+          { "text": "బంతి", "score": 0 },
+          { "text": "పిల్లి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-18",
+        "text": "సరైన వాక్యం ఏది?",
+        "correctAnswer": "అతడు ఆడతాడు.",
+        "options": [
+          { "text": "అతడు ఆడుతున్నాడు.", "score": 1 },
+          { "text": "అతడు ఆడతాడు.", "score": 1 },
+          { "text": "అతడు ఆడటం.", "score": 0 },
+          { "text": "ఆడతాడా అతడు.", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE11-15-19",
+        "text": "తాళుక్కునే (ఒకే రీతిగా వినిపించే) పదజోడు ఏవి?",
+        "correctAnswer": "1 మరియు 3 రెండూ",
+        "options": [
+          { "text": "లైట్–నైట్", "score": 1 },
+          { "text": "పెన్–ఫ్యాన్", "score": 0 },
+          { "text": "బిగ్–పిగ్", "score": 1 },
+          { "text": "1 మరియు 3 రెండూ", "score": 1 }
+        ]
+      },
+      {
+        "id": "AGE11-15-20",
+        "text": "సరిపోలే నమూనా ఏది?",
+        "correctAnswer": "అ1బ2",
+        "options": [
+          { "text": "అ1బ2", "score": 1 },
+          { "text": "అ2బ3", "score": 0 },
+          { "text": "అ1బ1", "score": 0 },
+          { "text": "అ3బ2", "score": 0 }
+        ]
+      }
+    ]
+  },
+  "age-16-plus": {
+    "expectedTimePerQuestion": 25,
+    "thresholdIncorrect": 9,
+    "thresholdSlowResponses": 7,
+    "questions": [
+      {
+        "id": "AGE16+-1",
+        "text": "ఈ పదాల్లో ఏది తప్పుగా వ్రాయబడి ఉంది?",
+        "correctAnswer": "విద్యార్ధి",
+        "options": [
+          { "text": "విద్యార్థి", "score": 0 },
+          { "text": "విద్యార్ధి", "score": 1 },
+          { "text": "విద్యాలయము", "score": 0 },
+          { "text": "ఉపాధ్యాయుడు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-2",
+        "text": "\"1, 3, 5, ?\" తర్వాత వచ్చే సంఖ్య ఏది?",
+        "correctAnswer": "7",
+        "options": [
+          { "text": "6", "score": 0 },
+          { "text": "7", "score": 1 },
+          { "text": "8", "score": 0 },
+          { "text": "9", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-3",
+        "text": "ఈ రెండింట్లో సరైన వాక్యం ఏది?",
+        "correctAnswer": "నేను బజారుకి వెళ్ళాను",
+        "options": [
+          { "text": "నేను బజారుకి వెళ్ళాను", "score": 1 },
+          { "text": "నేను బజారుకి వెళ్ళా", "score": 0 },
+          { "text": "నేను బజారుకి వెళతాను", "score": 0 },
+          { "text": "అన్ని సరైనవి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-4",
+        "text": "\"విద్య\" పదం అర్థం ఏమిటి?",
+        "correctAnswer": "జ్ఞానం",
+        "options": [
+          { "text": "ఆట", "score": 0 },
+          { "text": "జ్ఞానం", "score": 1 },
+          { "text": "భోజనం", "score": 0 },
+          { "text": "విశ్రాంతి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-5",
+        "text": "\"సమయం\" పదం ఎన్ని అక్షరాలతో ఉంది?",
+        "correctAnswer": "3",
+        "options": [
+          { "text": "2", "score": 0 },
+          { "text": "3", "score": 1 },
+          { "text": "4", "score": 0 },
+          { "text": "5", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-6",
+        "text": "\"త–థ–ద–ధ–?\" తర్వాత ఏ అక్షరం వస్తుంది?",
+        "correctAnswer": "న",
+        "options": [
+          { "text": "న", "score": 1 },
+          { "text": "ప", "score": 0 },
+          { "text": "మ", "score": 0 },
+          { "text": "ల", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-7",
+        "text": "\"ప్రశ్న\" మరియు \"ప్రస్న\" — వీటిలో సరైనది ఏది?",
+        "correctAnswer": "ప్రశ్న",
+        "options": [
+          { "text": "ప్రశ్న", "score": 1 },
+          { "text": "ప్రస్న", "score": 0 },
+          { "text": "రెండూ", "score": 0 },
+          { "text": "తెలియదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-8",
+        "text": "\"శ్రద్ధ\" పదంలో ఏ అక్షరాన్ని ఎక్కువగా తప్పుగా రాస్తారు?",
+        "correctAnswer": "ధ",
+        "options": [
+          { "text": "ధ", "score": 1 },
+          { "text": "శ్", "score": 0 },
+          { "text": "ర", "score": 0 },
+          { "text": "ద", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-9",
+        "text": "ఈ సంఖ్యల్లో పెద్దది ఏది?",
+        "correctAnswer": "౨౦",
+        "options": [
+          { "text": "౧౫", "score": 0 },
+          { "text": "౨౦", "score": 1 },
+          { "text": "౧౮", "score": 0 },
+          { "text": "౧౭", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-10",
+        "text": "\"ఆకాశం నీలం ఎందుకు?\" ప్రశ్న ఏ రకం?",
+        "correctAnswer": "వివరణాత్మక",
+        "options": [
+          { "text": "అవును/కాదు", "score": 0 },
+          { "text": "వివరణాత్మక", "score": 1 },
+          { "text": "లెక్కింపు", "score": 0 },
+          { "text": "సంబంధం లేని", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-11",
+        "text": "\"పెద్ద\" అనే పదానికి సరైన సమానార్థకం ఏది?",
+        "correctAnswer": "పెద్దది",
+        "options": [
+          { "text": "చిన్నది", "score": 0 },
+          { "text": "పెద్దది", "score": 1 },
+          { "text": "మృదువైనది", "score": 0 },
+          { "text": "మసకైనది", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-12",
+        "text": "ఒకేలా వినిపించి గందరగోళం కలిగించే పదాన్ని తాకు",
+        "correctAnswer": "క్వయిట్",
+        "options": [
+          { "text": "క్వైట్", "score": 0 },
+          { "text": "క్వయిట్", "score": 1 },
+          { "text": "క్విల్ట్", "score": 0 },
+          { "text": "క్విట్", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-13",
+        "text": "\"ప్రారంభం\" అనే పదానికి వ్యతిరేక పదం ఏది?",
+        "correctAnswer": "ముగింపు",
+        "options": [
+          { "text": "ముగింపు", "score": 1 },
+          { "text": "మొదలు", "score": 0 },
+          { "text": "కొనసాగించు", "score": 0 },
+          { "text": "పూర్తిచేయు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-14",
+        "text": "రెండు అక్షరాలు పునరావృతమై ఉండే పదాన్ని తాకు",
+        "correctAnswer": "ఆపిల్",
+        "options": [
+          { "text": "ఆపిల్", "score": 1 },
+          { "text": "పుస్తకం", "score": 0 },
+          { "text": "ఆడటం", "score": 0 },
+          { "text": "రహదారి", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-15",
+        "text": "తాళుక్కునే (ఒకే రీతిగా వినిపించే) పదజంటను ఎంచుకోండి",
+        "correctAnswer": "రెండూ",
+        "options": [
+          { "text": "భల్లూకం–న్యాయం", "score": 1 },
+          { "text": "పిల్లి–టోపీ", "score": 1 },
+          { "text": "రెండూ", "score": 1 },
+          { "text": "ఏదీ కాదు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-16",
+        "text": "సరైన వ్యాకరణంతో ఉన్న వాక్యాన్ని తాకు",
+        "correctAnswer": "ఆమె వెళ్తుంది.",
+        "options": [
+          { "text": "ఆమె వెళ్లదు.", "score": 0 },
+          { "text": "ఆమె వెళ్తుంది.", "score": 1 },
+          { "text": "ఆమె వెళ్తోంది.", "score": 1 },
+          { "text": "వెళ్తుందా ఆమె.", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-17",
+        "text": "\"న్యూ\" అనే శబ్దంలా వినిపించే పదం ఏది?",
+        "correctAnswer": "కొత్త",
+        "options": [
+          { "text": "కొత్త", "score": 1 },
+          { "text": "ఇప్పుడు", "score": 0 },
+          { "text": "లేదు", "score": 0 },
+          { "text": "దగ్గర", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-18",
+        "text": "సరైన అక్షర నమూనా ఏది?",
+        "correctAnswer": "అబఅబ",
+        "options": [
+          { "text": "అబఅబ", "score": 1 },
+          { "text": "అఅబబ", "score": 0 },
+          { "text": "అబబअ", "score": 0 },
+          { "text": "అబసద", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-19",
+        "text": "సరిపోని పదాన్ని తాకు",
+        "correctAnswer": "నిద్ర",
+        "options": [
+          { "text": "చదువు", "score": 0 },
+          { "text": "వ్రాయు", "score": 0 },
+          { "text": "నిద్ర", "score": 1 },
+          { "text": "ఆలోచించు", "score": 0 }
+        ]
+      },
+      {
+        "id": "AGE16+-20",
+        "text": "\"జంట\" అనే పదానికి సరిపడే శబ్దసామ్యపదం ఏది?",
+        "correctAnswer": "రెండూ",
+        "options": [
+          { "text": "పేర్ (పండు)", "score": 1 },
+          { "text": "పేర్ (కత్తిరించడం)", "score": 1 },
+          { "text": "రెండూ", "score": 1 },
+          { "text": "ఏదీ కాదు", "score": 0 }
+        ]
+      }
+    ]
+  }
+}
